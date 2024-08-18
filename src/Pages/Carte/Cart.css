@@ -1,0 +1,36 @@
+.Cart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.CartItem{
+    width: 700px;
+    height: 250px;
+    display: flex; 
+   
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0 , 0, 0, 0.2) ;
+    border-radius: 25px;
+    margin: 30px;
+
+
+    /* justify-content: space-around;
+    /* align-items: center; */
+    /* display: flex;
+    
+    align-items: center;
+    gap: 7px; */ 
+}
+.CartItem img{
+    width: 300px;
+    height: 250px;
+    font-size: 30px;
+    margin-right: 30px;
+    display: flex;
+    
+    flex-flow: row wrap;
+    align-items: center;
+}
